@@ -1,8 +1,33 @@
-#add items of varying quantities and prices
-#calculate discounts
-#keep track of what's been added to it
-#void the last transaction
+# add items of varying quantities and prices
+# calculate discounts
+# keep track of what's been added to it
+# void the last transaction
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=begin
 class CashRegister
   attr_accessor :total, :discount, :price, :items
 
@@ -40,3 +65,4 @@ class CashRegister
     @total -= @price
   end
 end
+=end
